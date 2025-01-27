@@ -45,7 +45,13 @@ flag= picoCTF{b2d14eaec72c31305075876bff2b5d}
 cant install wabt
 
 9. who are you
-burpsuite not loading
+keep intercept off initially
+then change user agent to PicoBrowser
+Referer:mercury...
+Date:2018
+X-Forwaded-For:103.103.84.0
+Accept-Language:sv
+
 
 10.power cookie
 change value of cookie to 1 
