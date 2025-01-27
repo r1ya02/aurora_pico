@@ -27,6 +27,11 @@ flag = picoCTF{ca1cu1at1ng_Mach1n3s_8028f}
 we use the webshell and connect to postgresql
 and then using the basic commands in the flag table we find the flag
 flag = picoCTF{L3arN_S0m3_5qL_t0d4Y_21c94904}
+\list
+\c pico
+\dt
+\d flags
+select * from flags
 
 6.some assembly required 1
 we inspect and go to sources and then wasm and we find the flag 
